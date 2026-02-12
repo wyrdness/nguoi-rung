@@ -1,0 +1,48 @@
+{
+  "category": "CRYPTID",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/nguoi-rung",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "nguoi-rung",
+    "name": "Ng\u01b0\u1eddi R\u1eebng",
+    "aliases": [
+      {
+        "name": "Vietnamese Wildman"
+      },
+      {
+        "name": "Forest People"
+      },
+      {
+        "name": "Jungle People"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Wildman",
+    "tags": [
+      "cryptid",
+      "humanoid",
+      "undiscovered",
+      "sightings"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "Vietnamese forest-dwelling hominid described as covered in hair and living primitively",
+      "full": "Vietnamese forest-dwelling hominid described as covered in hair and living primitively"
+    }
+  }
+}
