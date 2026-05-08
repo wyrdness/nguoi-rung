@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/nguoi-rung",
     "maintainers": [
       {
@@ -16,111 +16,270 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "nguoi-rung",
     "name": "Người Rừng",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Wildman",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Người Rừng", "language": "Vietnamese", "meaning": "forest man / forest people" },
+      { "name": "Batutut", "region": "Indochinese highlands" },
+      { "name": "Ujit", "region": "Vietnam / northern Borneo" },
+      { "name": "Vietnamese wildman", "language": "English" },
+      { "name": "Rock ape", "language": "English (US military slang)", "region": "Vietnam War-era reports" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Indochinese hominid cryptid",
+    "tags": [
+      "cryptid",
+      "wildman",
+      "vietnam",
+      "laos",
+      "southeast-asia",
+      "hominid",
+      "bigfoot-analog",
+      "rock-ape"
+    ],
+    "status": "dormant",
     "description": {
-      "summary": "Vietnamese forest-dwelling hominid described as covered in hair and living primitively This phenomenon represents an important part of Vietnamese folklore and cultural heritage, with documented accounts and traditions spanning generations.",
-      "full": "Vietnamese forest-dwelling hominid described as covered in hair and living primitively This phenomenon represents an important part of Vietnamese folklore and cultural heritage, with documented accounts and traditions spanning generations."
+      "summary": "A proposed Indochinese hominid cryptid reported from the dense forests of Vietnam and Laos, broadly analogous to the North American Bigfoot. Reports cluster in the Vu Quang region of Vietnam and on the Vietnam-Laos border; no specimen has been collected.",
+      "full": "Người Rừng (Vietnamese for 'forest man') is a proposed hominid cryptid reported from the rugged forests of Vietnam and Laos, with related accounts extending into northern Borneo. The same or related figure is also called Batutut and Ujit in cryptozoological literature, and was nicknamed 'rock ape' by U.S. servicemen during the Vietnam War. Witnesses describe an upright, hair-covered being roughly six feet tall, completely covered with grey, brown, or black hair except on the knees, the soles of the feet, the hands, and the face. Reports describe both solitary individuals and small groups. Long before American military involvement, Vietnamese, Lao, and Montagnard highland communities maintained a substantial oral tradition of forest people seen at the edges of clearings and remote settlements. Modern scientific engagement begins with British primatologist John MacKinnon, who reported observing unusual bipedal tracks in 1970 during fieldwork that he later described in his 1975 book In Search of the Red Ape; MacKinnon at the time speculated about a hominid related to Meganthropus. Professor Trần Hồng Việt of the Pedagogic University of Hanoi announced in 1982 that he had found and cast similar footprints, measuring 28 × 16 cm, comparable to MacKinnon's 1970 observations. No specimen has been recovered, and no peer-reviewed evidence has demonstrated that the Người Rừng exists; mainstream zoologists treat reports as folkloric and as plausibly explained by misidentification of known primates (gibbons, langurs, and other apes) and bears."
     },
     "etymology": {
-      "origin": "| Vietnamese |",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Vietnamese người ('person, man') + rừng ('forest, jungle').",
+      "meaning": "Literally 'forest man' or 'forest person'.",
+      "first_use": "Long-standing Vietnamese folkloric usage; entered English-language cryptozoological literature in the 1970s–1980s."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Wildman",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Humanoid",
+      "subtype": "Hominid wildman",
+      "variant": "Indochinese"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "bigfoot", "name": "Bigfoot", "relationship": "similar", "description": "North American hairy hominid cryptid" },
+      { "id": "yeti", "name": "Yeti", "relationship": "similar", "description": "Himalayan hairy hominid cryptid" },
+      { "id": "yeren", "name": "Yeren", "relationship": "similar", "description": "Chinese 'wild man' cryptid" },
+      { "id": "orang-pendek", "name": "Orang Pendek", "relationship": "similar", "description": "Sumatran short bipedal cryptid" },
+      { "id": "almas", "name": "Almas", "relationship": "similar", "description": "Central Asian hairy hominid cryptid" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.7, "max": 1.9, "unit": "meters", "confidence": "low" },
+      "coloration": ["grey", "brown", "black"],
+      "features": [
+        { "feature": "Hair-covered body", "description": "Body completely covered with hair except on the knees, the soles of the feet, the hands, and the face", "frequency": "always" },
+        { "feature": "Bipedal locomotion", "description": "Walks upright on two legs", "frequency": "always" },
+        { "feature": "Approximately six feet tall", "description": "Height typically reported around 1.8 m (six feet)", "frequency": "common" },
+        { "feature": "Both solitary and small-group sightings", "description": "Reported both alone and in small clans of several individuals", "frequency": "common" }
+      ],
+      "morphology": "An upright hominid morphology described as broadly similar to the regional 'wildman' tradition spanning Bigfoot (North America), Yeren (China), Orang Pendek (Sumatra), and Almas (Central Asia)."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["dense tropical forest", "remote highlands", "nature reserves"],
+      "patterns": [
+        "Avoids human settlements; reportedly glimpsed at the edge of clearings",
+        "Reports clustered in the Vu Quang region of Vietnam and on the Vietnam-Laos border"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "| Vietnamese |",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports cluster in the forested mountains of central Vietnam (notably the Vu Quang region) and along the Vietnam-Laos border, with related Batutut/Ujit accounts extending into Laos and reportedly into northern Borneo.",
+      "continents": ["Asia"],
+      "countries": ["Vietnam", "Laos"],
+      "regions": [
+        "Vu Quang National Park (Hà Tĩnh Province)",
+        "Annamite Range",
+        "Central Highlands",
+        "Vietnam-Laos border"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Vu Quang region",
+        "location": {
+          "description": "Vu Quang National Park and surrounding forests, Hà Tĩnh Province",
+          "country": "Vietnam",
+          "region": "Hà Tĩnh / Annamite Range"
+        },
+        "notes": "Core area of Người Rừng reports; site of MacKinnon's 1970 track observations and Trần Hồng Việt's 1982 footprint casts"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-modern",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Long-standing Vietnamese, Montagnard, and Lao oral tradition; modern scientific record begins in 1970"
+      },
+      "peak_activity_periods": [
+        { "period": "Vietnam War era (c. 1965–1975)", "description": "U.S. military 'rock ape' reports from soldiers operating in the Annamite highlands" },
+        { "period": "1970–1990s", "description": "Period of formal cryptozoological investigation by MacKinnon, Trần Hồng Việt, and others" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "| Vietnamese |",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Vietnamese, Lao, and Montagnard oral traditions of forest people inhabiting the Annamite highlands.",
+      "earliest_accounts": "Long-standing Indigenous oral tradition; modern scientific record begins with John MacKinnon's 1970 fieldwork.",
+      "folklore_connections": "Belongs to a broader Asian and global wildman complex including the Yeren, Yeti, Orang Pendek, Almas, and Bigfoot."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1970", "event": "British primatologist John MacKinnon reports observing unusual bipedal footprints during fieldwork in Vietnam, leading him to speculate about a hominid related to Meganthropus", "significance": "Earliest modern scientific report of Người Rừng tracks", "source": "MacKinnon, J. (1975), In Search of the Red Ape" },
+      { "date": "1975", "event": "MacKinnon publishes In Search of the Red Ape, describing his 1970 track observations", "significance": "First scientific monograph mention of the Indochinese tracks", "source": "MacKinnon, J. (1975)" },
+      { "date": "1982", "event": "Professor Trần Hồng Việt of the Pedagogic University of Hanoi announces the discovery and casting of bipedal footprints (28 × 16 cm) similar to those reported by MacKinnon in 1970", "significance": "Most prominent Vietnamese scientific engagement with the cryptid", "source": "Trần Hồng Việt, announcement reported in cryptozoological literature; Wikipedia: Người Rừng" }
+    ],
+    "modern_era": "Reports of the Người Rừng have largely faded since the 1990s. The Annamite forests in which it was reportedly seen have meanwhile yielded several genuinely new large-mammal discoveries — most notably the saola (Pseudoryx nghetinhensis, 1992) and the giant muntjac (1994) — which has kept some interest in the region's biodiversity, although mainstream zoology does not treat the Người Rừng itself as a confirmed species."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1970", "latest": "1990s" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "nguoi-rung-sighting-1970-mackinnon",
+        "name": "John MacKinnon footprint observation",
+        "date": { "value": "1970-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Forested highlands of central Vietnam",
+          "country": "Vietnam",
+          "region": "Annamite Range"
+        },
+        "witnesses": { "count": 1, "types": ["Primatologist (John MacKinnon)"], "credibility_factors": ["Trained primatologist", "Published account in 1975 monograph"] },
+        "description": "During primatological fieldwork, MacKinnon reported observing unusual bipedal footprints that he believed were not produced by any known local primate; he later wrote that the tracks suggested a hominid possibly related to Meganthropus. The observation is described in his 1975 book In Search of the Red Ape.",
+        "evidence": ["Field observations of footprints", "Account published in MacKinnon (1975)"],
+        "credibility": { "rating": "medium", "factors": ["Trained primatologist as witness", "No casts or photographs preserved at scientific standard"], "notes": "Foundational modern scientific report of Người Rừng tracks." },
+        "sources": ["MacKinnon, J. (1975), In Search of the Red Ape"],
+        "featured": true
+      },
+      {
+        "id": "nguoi-rung-sighting-1982-tran-hong-viet",
+        "name": "Trần Hồng Việt footprint casts",
+        "date": { "value": "1982-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Forested region of Vietnam",
+          "country": "Vietnam"
+        },
+        "witnesses": { "count": 1, "types": ["University researcher (Prof. Trần Hồng Việt, Pedagogic University of Hanoi)"], "credibility_factors": ["Vietnamese academic researcher", "Casts produced and announced publicly"] },
+        "description": "Professor Trần Hồng Việt announced the discovery and casting of bipedal footprints measuring 28 × 16 cm, which he reported as similar to the tracks observed by John MacKinnon in 1970.",
+        "evidence": ["Plaster casts of footprints (28 × 16 cm)"],
+        "credibility": { "rating": "medium", "factors": ["Academic researcher as primary investigator", "Casts available, but not subjected to peer-reviewed primate-anatomy analysis"], "notes": "Most prominent Vietnamese scientific engagement with the Người Rừng case." },
+        "sources": ["Wikipedia / cryptozoological literature on Người Rừng"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "nguoi-rung-evidence-tran-hong-viet-casts",
+        "type": "footprint casts",
+        "name": "Trần Hồng Việt footprint casts",
+        "date": "1982",
+        "description": "Bipedal footprint casts approximately 28 × 16 cm, made by Professor Trần Hồng Việt of the Pedagogic University of Hanoi.",
+        "status": "disputed",
+        "analysis": "Reported as similar to MacKinnon's 1970 track observations; have not been published in a peer-reviewed primate-anatomy analysis.",
+        "source": "Trần Hồng Việt (1982), reported in subsequent cryptozoological literature"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
     "trace": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Undescribed Indochinese hominid",
+        "description": "Hypothesis that the Người Rừng represents an undescribed bipedal hominid species, possibly related to Meganthropus, surviving in remote Annamite forests.",
+        "proponents": ["John MacKinnon (early speculation)", "Trần Hồng Việt"],
+        "evidence_cited": ["1970 track observations and 1982 footprint casts", "Recent Annamite biodiversity discoveries (saola 1992, giant muntjac 1994) demonstrating that large mammals can remain undescribed in the region"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification of known primates",
+        "description": "Skeptical view that Người Rừng reports represent misidentified gibbons, langurs, macaques, and possibly Asian black bears, particularly under stressful wartime or low-light conditions.",
+        "proponents": ["Mainstream zoology"],
+        "evidence_cited": ["Diverse known primate fauna of the Annamite range", "Variable size and behaviour reports inconsistent with a single species"]
+      },
+      {
+        "name": "No biological evidence",
+        "description": "No specimen, body, bone, or unambiguous genetic evidence has been produced; mainstream zoology treats the Người Rừng as folkloric.",
+        "proponents": ["Mainstream zoology"],
+        "evidence_cited": ["Decades of intensive forestry, conflict, and biodiversity surveys in the Annamite range without specimen recovery"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Vietnamese forest-people oral tradition",
+        "Montagnard highland traditions",
+        "Lao oral tradition along the Vietnam-Laos border",
+        "U.S. Vietnam War-era 'rock ape' soldier folklore"
+      ],
+      "stories": [
+        "Wartime soldier reports of upright hairy creatures throwing stones",
+        "Highland villagers glimpsing forest people at the edges of clearings"
+      ],
+      "beliefs": "Highland communities historically regarded the forest people as real beings inhabiting remote areas of the Annamite range."
+    },
+    "indigenous": {
+      "cultures": ["Vietnamese", "Montagnard (Degar)", "Lao"],
+      "significance": "The 'forest people' tradition long predates American military or Western cryptozoological involvement and is part of older Indigenous oral knowledge of the Annamite forests.",
+      "sensitivity_note": "Indigenous Người Rừng traditions should be distinguished from later cryptozoological framings.",
+      "respect_guidelines": "Cite Vietnamese and Montagnard sources where possible; do not conflate Indigenous oral tradition with US military 'rock ape' reports."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "In Search of the Red Ape — John MacKinnon (1975)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Vietnam War-era soldier 'rock ape' folklore"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Dr. John MacKinnon", "affiliation": "Primatologist (later WWF / IUCN)", "contribution": "1970 track observations published in In Search of the Red Ape (1975)", "period": "1970–1975" },
+      { "name": "Prof. Trần Hồng Việt", "affiliation": "Pedagogic University of Hanoi", "contribution": "1982 announcement of bipedal footprint casts (28 × 16 cm)", "period": "1980s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "There is no active scientific research programme specifically targeting the Người Rừng; broader Annamite biodiversity surveys continue to document genuinely new and rare species but have not produced specimen evidence of a hominid cryptid."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "mackinnon-1975",
+      "type": "book",
+      "title": "In Search of the Red Ape",
+      "authors": ["John MacKinnon"],
+      "publication": "Holt, Rinehart and Winston",
+      "date": "1975"
+    }
+  ]
 }
